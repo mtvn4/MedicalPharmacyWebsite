@@ -1,0 +1,22 @@
+.contact{
+    display:grid;
+    grid-template-columns:60%;
+    justify-content:center;
+    padding:20px;
+    gap:10px;
+    text-align:center;
+}
+
+@media screen and (max-width:768px) {
+    .contact div{
+       font-size: 0.6rem;
+       
+    }
+    .contact{
+        display: grid;
+        grid-template-columns: 80%;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+}

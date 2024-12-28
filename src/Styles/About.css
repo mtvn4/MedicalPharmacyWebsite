@@ -1,0 +1,12 @@
+p{
+    font-size: 1.2rem;
+    width: 70%;
+}
+
+@media screen and (max-width:768px) {
+    p{
+        font-size: 0.8rem;
+        width: 80%;
+    }
+    
+}
